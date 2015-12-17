@@ -11,8 +11,8 @@ CFLAGS = -Wall -Wextra
 #
 SRCS = main.c ground.c role.c load.c score.c menu.c state.c function.c music.c game.c  object.c
 OBJS = $(SRCS:.c=.o)
-DBGB = t2dbg
-RELB = t2
+DBGB = parkourdbg
+RELB = parkour
 #
 #include files
 #
